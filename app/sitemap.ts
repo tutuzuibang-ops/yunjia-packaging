@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { products } from "@/lib/data";
 import { locales, localizedPath } from "@/lib/i18n";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.yunjiapackaging.com";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.yoviapack.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPaths = ["", "/about", "/products", "/factory", "/contact"];

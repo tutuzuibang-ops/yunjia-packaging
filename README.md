@@ -26,9 +26,8 @@ Open `http://localhost:3000/zh` or `http://localhost:3000/en`.
 Set these variables in `.env.local` when connecting a real admin backend:
 
 ```bash
-NEXT_PUBLIC_SITE_URL=https://www.yunjiapackaging.com
-ADMIN_API_BASE_URL=https://admin.example.com/api
-INQUIRY_TO_EMAIL=sales@yunjiapackaging.com
+NEXT_PUBLIC_SITE_URL=https://www.yoviapack.com
+INQUIRY_TO_EMAIL=sales@yoviapack.com
 ```
 
 The integration point is reserved in `app/api/inquiry/route.ts`.
