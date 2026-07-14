@@ -15,8 +15,8 @@ export default function HomePage({ params }: { params: { locale: Locale } }) {
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=2000&q=80"
-            alt={isZh ? "现代包装仓储" : "Modern packaging warehouse"}
+            src="/hero-packaging.jpg"
+            alt={isZh ? "定制包装制造工厂" : "Custom packaging manufacturing"}
             fill
             priority
             className="object-cover"
@@ -25,14 +25,12 @@ export default function HomePage({ params }: { params: { locale: Locale } }) {
         </div>
         <div className="relative mx-auto grid min-h-[680px] max-w-7xl content-center px-4 pb-20 pt-24 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
-            <p className="mb-5 inline-flex rounded-full border border-white/20 bg-white/10 px-4 py-2 text-sm font-semibold text-white/85 backdrop-blur">
-              {dict.company}
-            </p>
-            <h1 className="text-4xl font-black leading-tight text-white sm:text-6xl lg:text-7xl">{dict.tagline}</h1>
+            
+            <h1 className="text-4xl font-black leading-tight text-white sm:text-6xl lg:text-6xl">{dict.tagline}</h1>
             <p className="mt-6 max-w-2xl text-lg leading-8 text-white/78">
               {isZh
-                ? "为全球品牌提供彩盒、礼盒、手提袋、吸塑内托与标签贴纸等一站式定制包装服务，兼顾设计质感、制造稳定性与出口交付效率。"
-                : "One-stop custom boxes, gift packaging, paper bags, blister trays, and labels for global brands, balancing premium design, stable manufacturing, and export delivery."}
+                ? "提供快速打样、灵活生产和可靠支持的一站式包装解决方案。"
+                : "Custom packaging solutions with fast sampling, flexible production, and reliable support — from design to delivery."}
             </p>
             <div className="mt-9 flex flex-wrap gap-4">
               <Link href={localizedPath(locale, "/products")} className="inline-flex items-center gap-2 rounded-full bg-citrus px-6 py-3 font-bold text-ink transition hover:bg-mint">
@@ -82,10 +80,10 @@ export default function HomePage({ params }: { params: { locale: Locale } }) {
 
       <section className="mx-auto grid max-w-7xl gap-10 px-4 py-16 sm:px-6 lg:grid-cols-[0.9fr_1.1fr] lg:px-8">
         <div>
-          <p className="text-sm font-bold uppercase tracking-widest text-marine dark:text-mint">{isZh ? "工厂实力" : "Factory Strength"}</p>
-          <h2 className="mt-3 text-3xl font-black sm:text-4xl">{isZh ? "从样品到量产，每一步都有标准" : "A Standardized Path from Sample to Shipment"}</h2>
+          <p className="text-sm font-bold uppercase tracking-widest text-marine dark:text-mint">{isZh ? "生产与服务能力" : "Manufacturing Capabilities"}</p>
+          <h2 className="mt-3 text-3xl font-black sm:text-4xl">{isZh ? "从快速打样到稳定交付" : "From Fast Sampling to Reliable Delivery"}</h2>
           <p className="mt-5 leading-8 text-ink/70 dark:text-white/70">
-            {isZh ? "韵嘉包装以项目制管理订单，围绕结构、材料、印刷、成型、组装和质检建立可追踪流程。" : "Yunjia manages orders as projects, making structure, materials, printing, forming, assembly, and QC traceable."}
+            {isZh ? "从快速打样到批量生产，我们以稳定的品质、高效的沟通和灵活的生产，为品牌提供值得信赖的包装制造服务。" : "From fast sampling to full-scale production, we help brands bring packaging to market with consistent quality, responsive communication, and flexible manufacturing."}
           </p>
         </div>
         <div className="grid gap-4 sm:grid-cols-2">

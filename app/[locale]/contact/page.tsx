@@ -19,11 +19,15 @@ export default function ContactPage({ params }: { params: { locale: Locale } }) 
         <p className="mt-5 leading-8 text-ink/70 dark:text-white/70">
           {isZh ? "欢迎发送产品尺寸、数量、设计文件、目标市场和交期，我们会尽快评估并回复。" : "Send product size, quantity, artwork, target market, and schedule. We will review and respond quickly."}
         </p>
-        <div className="mt-8 grid gap-4 text-sm font-semibold">
-          <span className="flex items-center gap-3"><Phone className="text-marine dark:text-mint" size={20} /> +86 755 0000 0000</span>
-          <span className="flex items-center gap-3"><Mail className="text-marine dark:text-mint" size={20} /> sales@yunjiapackaging.com</span>
-          <span className="flex items-center gap-3"><MapPin className="text-marine dark:text-mint" size={20} /> {isZh ? "中国广东省深圳市" : "Shenzhen, Guangdong, China"}</span>
-        </div>
+        <a
+  href="https://wa.me/8613812345678"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center gap-3 hover:text-marine"
+>
+  <Phone className="text-marine dark:text-mint" size={20} />
+  WhatsApp: +8618470513130
+</a>
       </div>
       <InquiryForm locale={params.locale} />
     </section>

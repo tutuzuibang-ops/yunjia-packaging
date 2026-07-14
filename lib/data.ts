@@ -35,7 +35,7 @@ export const products: Product[] = [
       zh: ["材质：白卡纸、灰板纸、瓦楞纸", "工艺：烫金、UV、覆膜、压纹", "起订量：按规格评估", "应用：零售、电商、礼品"],
       en: ["Materials: SBS, greyboard, corrugated paper", "Finishes: foil, UV, lamination, embossing", "MOQ: evaluated by specification", "Use: retail, e-commerce, gifts"]
     },
-    image: "https://images.unsplash.com/photo-1607082349566-187342175e2f?auto=format&fit=crop&w=1200&q=80",
+    image: "/UV-box.jpg",
     accent: "bg-marine"
   },
   {
@@ -51,7 +51,7 @@ export const products: Product[] = [
       zh: ["结构：磁吸、天地盖、抽屉盒", "内托：纸托、EVA、吸塑、海绵", "表面：特种纸、触感膜、局部 UV", "服务：打样、包装测试、出货"],
       en: ["Structures: magnetic, lid-base, drawer", "Inserts: paper, EVA, blister, foam", "Surface: specialty paper, soft-touch film, spot UV", "Service: sampling, testing, shipping"]
     },
-    image: "https://images.unsplash.com/photo-1513201099705-a9746e1e201f?auto=format&fit=crop&w=1200&q=80",
+    image: "/luxury-gift-boxes.jpg",
     accent: "bg-citrus"
   },
   {
@@ -67,7 +67,7 @@ export const products: Product[] = [
       zh: ["纸张：牛皮纸、白卡纸、艺术纸", "手挽：棉绳、丝带、纸绳", "印刷：专色、四色、环保油墨", "场景：门店、展会、活动"],
       en: ["Paper: kraft, white card, art paper", "Handles: cotton, ribbon, twisted paper", "Printing: spot, CMYK, eco inks", "Use: stores, events, campaigns"]
     },
-    image: "https://images.unsplash.com/photo-1605902711622-cfb43c44367f?auto=format&fit=crop&w=1200&q=80",
+    image: "/paper-bags.jpg",
     accent: "bg-mint"
   },
   {
@@ -83,7 +83,7 @@ export const products: Product[] = [
       zh: ["材质：PET、PVC、PP、PS", "能力：开模、吸塑、裁切、组装", "特性：透明、防静电、食品级可选", "应用：内托、罩壳、展示包装"],
       en: ["Materials: PET, PVC, PP, PS", "Capabilities: tooling, forming, cutting, assembly", "Options: clear, anti-static, food grade", "Use: trays, covers, display packs"]
     },
-    image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=1200&q=80",
+    image: "/blister-trays.jpg",
     accent: "bg-ink"
   }
 ];
@@ -96,7 +96,7 @@ export const news: NewsItem[] = [
     excerpt: { zh: "可回收纸材、减塑结构和环保油墨正在成为出口包装项目的常规要求。", en: "Recyclable paper, plastic reduction, and eco inks are becoming standard for export-ready packaging." },
     body: {
       zh: "品牌客户越来越关注包装全生命周期。韵嘉包装在方案阶段会同步评估材料、结构、工艺与运输保护，帮助客户兼顾视觉效果、成本与可持续要求。",
-      en: "Brand owners are looking at the full packaging lifecycle. Yunjia evaluates materials, structure, finishing, and transport protection from the proposal stage to balance presentation, cost, and sustainability."
+      en: "Brand owners are looking at the full packaging lifecycle. Yovia Pack evaluates materials, structure, finishing, and transport protection from the proposal stage to balance presentation, cost, and sustainability."
     }
   },
   {
@@ -122,13 +122,13 @@ export const news: NewsItem[] = [
 ];
 
 export const factoryHighlights = [
-  { value: "10+", zh: "年包装制造经验", en: "Years of manufacturing experience" },
-  { value: "3000m2", zh: "生产与仓储空间", en: "Production and storage space" },
-  { value: "24h", zh: "快速响应询盘", en: "Fast inquiry response" },
-  { value: "QC", zh: "来料、制程、出货检验", en: "Incoming, in-process, and outgoing QC" }
+  { value: "Fast Sampling", zh: "快速打样能力", en: "Prototype development in as fast as 3–7 days." },
+  { value: "Flexible Production", zh: "灵活生产能力", en: "Supporting both small and large production runs." },
+  { value: "Responsive Support", zh: "快速响应服务", en: "Direct communication with dedicated project follow-up." },
+  { value: "Quality Control", zh: "严格质量管控", en: "Inspection before, during, and after production." }
 ];
 
 export const processes = {
   zh: ["需求沟通", "结构设计", "材料建议", "打样确认", "批量生产", "质检出货"],
-  en: ["Briefing", "Structural design", "Material advice", "Sample approval", "Mass production", "QC and shipping"]
+  en: ["Share Your Requirements", "Packaging Design", "Material Selection", "Prototype & Approval", "production", "Quality Check & Delivery"]
 };

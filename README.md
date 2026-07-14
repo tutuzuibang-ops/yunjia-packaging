@@ -10,7 +10,6 @@ Next.js + Tailwind CSS bilingual responsive website for Shenzhen Yunjia Packagin
 - Responsive navigation, dark mode, online inquiry form
 - Reserved API routes for backend integration:
   - `GET /api/products`
-  - `GET /api/news`
   - `POST /api/inquiry`
 
 ## Run

@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -18,10 +19,15 @@ export function Header({ locale }: { locale: Locale }) {
     <header className="sticky top-0 z-50 border-b border-ink/10 bg-paper/90 backdrop-blur-xl dark:border-white/10 dark:bg-ink/90">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
         <Link href={localizedPath(locale)} className="flex items-center gap-3">
-          <span className="grid h-10 w-10 place-items-center rounded-lg bg-marine text-lg font-black text-white">YJ</span>
+          <Image
+ src="/yovia-logo.png"
+ alt="Yovia Pack"
+ width={50}
+ height={50}
+/>
           <span>
             <span className="block text-base font-bold text-ink dark:text-white">{dict.brand}</span>
-            <span className="block text-xs text-ink/60 dark:text-white/60">{locale === "zh" ? "Packaging Manufacturer" : "Since Shenzhen"}</span>
+            <span className="block text-xs text-ink/60 dark:text-white/60">{locale === "zh" ? "Packaging Manufacturer" : "Custom Packaging Manufacturer"}</span>
           </span>
         </Link>
 

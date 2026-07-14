@@ -15,14 +15,14 @@ export default function FactoryPage({ params }: { params: { locale: Locale } }) 
     <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
       <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
         <div>
-          <p className="text-sm font-bold uppercase tracking-widest text-marine dark:text-mint">{isZh ? "工厂实力" : "Factory Strength"}</p>
-          <h1 className="mt-3 text-4xl font-black sm:text-5xl">{isZh ? "稳定制造，清晰交付" : "Stable Manufacturing, Clear Delivery"}</h1>
+          <p className="text-sm font-bold uppercase tracking-widest text-marine dark:text-mint">{isZh ? "生产与服务能力" : "Manufacturing Capabilities"}</p>
+          <h1 className="mt-3 text-4xl font-black sm:text-5xl">{isZh ? "可靠制造，贴心支持。" : "Reliable Manufacturing with Personal Support."}</h1>
           <p className="mt-5 leading-8 text-ink/70 dark:text-white/70">
-            {isZh ? "我们围绕订单建立生产排程、物料确认、工艺确认、过程检验和出货检验，帮助客户降低沟通和品质风险。" : "We organize scheduling, material confirmation, process confirmation, in-process inspection, and outgoing inspection around each order to reduce communication and quality risk."}
+            {isZh ? "从快速打样到批量生产，我们以稳定的品质、高效的沟通和灵活的生产，为客户提供可靠的包装制造服务。" : "From fast sampling to mass production, we combine quality manufacturing with responsive communication and flexible production to support every project."}
           </p>
         </div>
         <div className="relative min-h-[420px] overflow-hidden rounded-lg">
-          <Image src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1200&q=80" alt={isZh ? "制造设备" : "Manufacturing equipment"} fill className="object-cover" />
+          <Image src="/factory-picture.jpg" alt={isZh ? "制造设备" : "Manufacturing equipment"} fill className="object-cover" />
         </div>
       </div>
 

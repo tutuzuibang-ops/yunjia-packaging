@@ -19,17 +19,17 @@ export default function AboutPage({ params }: { params: { locale: Locale } }) {
         </h1>
         <p className="mt-6 leading-8 text-ink/70 dark:text-white/70">
           {isZh
-            ? "深圳市韵嘉包装制品有限公司专注定制包装制品研发与生产，围绕纸质包装、礼盒、手提袋、吸塑内托、标签贴纸等产品，为客户提供结构设计、材料建议、打样、批量生产和出口协同服务。"
-            : "Shenzhen Yunjia Packaging Products Co., Ltd. develops and manufactures custom packaging across paper boxes, rigid gift boxes, paper bags, blister trays, and labels, supporting structural design, material advice, sampling, mass production, and export coordination."}
+            ? "Yovia Pack 致力于帮助品牌将包装创意转化为实际解决方案。我们专注于定制纸质包装，包括彩盒、精品礼盒、纸袋以及其他个性化包装产品。"
+            : "Yovia Pack helps brands turn packaging ideas into practical solutions. We specialize in custom paper packaging, including paper boxes, rigid gift boxes, paper bags, and tailored packaging products."}
         </p>
         <p className="mt-4 leading-8 text-ink/70 dark:text-white/70">
           {isZh
-            ? "我们理解包装不只是容器，更是品牌识别、运输保护和用户体验的一部分。团队以清晰沟通、稳定交付和长期合作为核心，为消费电子、美妆、食品、礼品及跨境电商客户提供可落地的包装方案。"
-            : "We see packaging as more than a container: it is brand identity, transport protection, and user experience working together. Our team focuses on clear communication, stable delivery, and long-term cooperation for electronics, beauty, food, gifts, and e-commerce brands."}
+            ? "我们不仅提供生产服务，更协助客户解决包装开发过程中的实际问题，包括结构设计优化、材料选择、快速打样和灵活定制。我们相信，包装不只是一个容器，更是品牌形象、产品保护与用户体验的结合。"
+            : "Beyond manufacturing, we support customers with structural design, material selection, fast sampling, and flexible solutions. We believe packaging is more than a container — it is a combination of brand identity, product protection, and user experience."}
         </p>
       </div>
       <div className="relative min-h-[420px] overflow-hidden rounded-lg">
-        <Image src="https://images.unsplash.com/photo-1565793298595-6a879b1d9492?auto=format&fit=crop&w=1200&q=80" alt={isZh ? "包装生产车间" : "Packaging production workshop"} fill className="object-cover" />
+        <Image src="/about-packaging.jpg" alt={isZh ? "包装生产车间" : "Packaging production workshop"} fill className="object-cover" />
       </div>
     </section>
   );

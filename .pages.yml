@@ -1,17 +1,64 @@
 media:
-  input: public
-  output: /
+  input: public/images
+  output: /images
 
 content:
-  - name: pages
-    label: Pages
-    path: content
+  - name: home
+    label: Home Page
+    path: content/home
     type: collection
     fields:
+
+      - name: title
+        label: Main Title
+        type: text
+
+      - name: subtitle
+        label: Subtitle
+        type: text
+
+      - name: hero_image
+        label: Hero Image
+        type: image
+
+      - name: button_text
+        label: Button Text
+        type: text
+
+
+  - name: products
+    label: Products
+    path: content/products
+    type: collection
+    fields:
+
+      - name: title
+        label: Product Name
+        type: text
+
+      - name: image
+        label: Product Image
+        type: image
+
+      - name: category
+        label: Category
+        type: text
+
+      - name: description
+        label: Description
+        type: rich-text
+
+
+  - name: about
+    label: About Us
+    path: content/about
+    type: collection
+    fields:
+
       - name: title
         label: Title
         type: text
 
       - name: body
-        label: Content
+        label: Company Introduction
         type: rich-text
